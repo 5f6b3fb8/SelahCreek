@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.TestHost" Version="5.0.2" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.7.1" />
     <PackageReference Include="MSTest.TestAdapter" Version="2.1.1" />
     <PackageReference Include="MSTest.TestFramework" Version="2.1.1" />
@@ -17,6 +18,7 @@
   <ItemGroup>
     <ProjectReference Include="..\WildBillPnw.SelahCreek.Models\WildBillPnw.SelahCreek.Models.csproj" />
     <ProjectReference Include="..\WildBillPnw.SelahCreek.Profiles\WildBillPnw.SelahCreek.Profiles.csproj" />
+    <ProjectReference Include="..\WildBillPnw.SelahCreek.Api\WildBillPnw.SelahCreek.Api.csproj" />
   </ItemGroup>
 
 </Project>

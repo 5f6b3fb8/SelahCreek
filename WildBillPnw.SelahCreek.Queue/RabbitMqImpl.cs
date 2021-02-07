@@ -2,7 +2,7 @@
 
 namespace WildBillPnw.SelahCreek.Queue
 {
-    public class RmqGateway: ISend
+    public class RmqGateway: ISendQueue
     {
         public void Send(string queue, string body)
         {

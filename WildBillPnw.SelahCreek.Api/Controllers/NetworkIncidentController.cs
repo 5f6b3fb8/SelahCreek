@@ -29,11 +29,5 @@ namespace WildBillPnw.SelahCreek.Api.Controllers
         {
             return "ok.";
         }
-
-        [HttpPost]
-        public HttpResponseMessage Post([FromBody] NetworkIncident incident)
-        {
-            _queueSend.SendQueue("in")
-        }
     }
 }
